@@ -1,6 +1,6 @@
 app-id: io.github.tobagin.scramble
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 command: scramble
 finish-args:
@@ -58,6 +58,7 @@ modules:
       - -DCMAKE_BUILD_TYPE=Release
       - -DENABLE_DECODER=ON
       - -DENABLE_ENCODER=OFF
+      - -DCMAKE_POLICY_VERSION_MINIMUM=3.5
     cleanup:
       - /bin
     sources:
@@ -103,5 +104,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/tobagin/scramble.git
-        tag: v1.1.0
-        commit: 29281f0c6766a6523584bfb0339dbb60bcb12ba2
+        tag: v1.1.2
+        commit: 6a1627698aecbd67205ae117cbe31ccfc4f112a2
