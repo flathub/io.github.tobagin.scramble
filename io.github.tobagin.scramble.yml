@@ -94,5 +94,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/tobagin/scramble.git
-        tag: v1.4.0
-        commit: 9632f687e726b0a8f6608bfb3766478984182190
+        tag: v1.4.1
+        commit: b36996156ff6fc4dd2c81d13c42d885a51174b08
