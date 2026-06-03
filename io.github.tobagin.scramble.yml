@@ -11,8 +11,12 @@ finish-args:
 
 cleanup:
   - /include
-  - /lib/pkgconfig
   - /lib/cmake
+  - /lib/girepository-1.0
+  - /lib/pkgconfig
+  - /share/gir-1.0
+  - /share/man
+  - /share/vala
   - "*.a"
 
 modules:
